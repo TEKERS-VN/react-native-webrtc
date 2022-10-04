@@ -18,6 +18,7 @@ import RTCView from './RTCView';
 import ScreenCapturePickerView from './ScreenCapturePickerView';
 import MediaStream from './MediaStream';
 import MediaStreamTrack from './MediaStreamTrack';
+import MediaStreamTrackEvent from './MediaStreamTrackEvent';
 import mediaDevices from './MediaDevices';
 import permissions from './Permissions';
 import Logger from './Logger';
@@ -46,6 +47,7 @@ export {
     RTCRtpHeaderExtension,
     MediaStream,
     MediaStreamTrack,
+    MediaStreamTrackEvent,
     mediaDevices,
     permissions,
     registerGlobals
@@ -73,8 +75,7 @@ function registerGlobals(): void {
     global.MediaStream = MediaStream;
     global.MediaStreamTrack = MediaStreamTrack;
     global.RTCRtpTransceiver = RTCRtpTransceiver;
-    global.RTCRtpReceiver = RTCRtpReceiver;
-    global.RTCRtpSender = RTCRtpSender;
+    global.MediaStreamTrackEvent = MediaStreamTrackEvent;    
     global.RTCErrorEvent = RTCErrorEvent;
     global.RTCRtpCapabilities = RTCRtpCapabilities;
     global.RTCRtpCodecCapability = RTCRtpCodecCapability;
@@ -84,5 +85,5 @@ function registerGlobals(): void {
     global.RTCRtpSendParameters = RTCRtpSendParameters;
     global.RTCRtpReceiverParameters = RTCRtpReceiveParameters;
     global.RTCRtcpParameters = RTCRtcpParameters;
-    global.RTCRtpHeaderExtension = RTCRtpHeaderExtension;
+    global.RTCRtpHeaderExtension = RTCRtpHeaderExtension;    
 }
