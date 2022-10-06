@@ -1,13 +1,13 @@
 {
-  "name": "react-native-webrtc",
+  "name": "pitel-react-native-webrtc",
   "version": "106.0.0-beta.2",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/react-native-webrtc/react-native-webrtc.git"
+    "url": "git+https://github.com/TEKERS-VN/react-native-webrtc.git"
   },
   "description": "WebRTC for React Native",
   "license": "MIT",
-  "homepage": "https://github.com/react-native-webrtc/react-native-webrtc",
+  "homepage": "https://github.com/TEKERS-VN/react-native-webrtc.git",
   "keywords": [
     "react-component",
     "react-native",
