@@ -1,5 +1,5 @@
 {
-  "name": "pitel-react-native-webrtc",
+  "name": "@tekers/react-native-webrtc",
   "version": "106.0.0-beta.2",
   "repository": {
     "type": "git",
