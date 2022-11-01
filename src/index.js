@@ -6,6 +6,7 @@ import RTCSessionDescription from './RTCSessionDescription';
 import RTCView from './RTCView';
 import MediaStream from './MediaStream';
 import MediaStreamTrack from './MediaStreamTrack';
+import MediaStreamTrackEvent from './MediaStreamTrackEvent';
 import mediaDevices from './MediaDevices';
 import permissions from './Permissions';
 
@@ -17,6 +18,7 @@ export {
     RTCView,
     MediaStream,
     MediaStreamTrack,
+    MediaStreamTrackEvent,
     mediaDevices,
     permissions,
     registerGlobals
@@ -41,4 +43,5 @@ function registerGlobals() {
     global.RTCSessionDescription = RTCSessionDescription;
     global.MediaStream = MediaStream;
     global.MediaStreamTrack = MediaStreamTrack;
+    global.MediaStreamTrackEvent = MediaStreamTrackEvent;
 }

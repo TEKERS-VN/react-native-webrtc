@@ -3,8 +3,8 @@ require 'json'
 package = JSON.parse(File.read(File.join(__dir__, 'package.json')))
 
 Pod::Spec.new do |s|
-  s.name                = package['name']
-  s.version             = package['version']
+  s.name                = 'react-native-webrtc'
+  s.version             = '1.94.2'
   s.summary             = package['description']
   s.homepage            = 'https://github.com/react-native-webrtc/react-native-webrtc'
   s.license             = package['license']
